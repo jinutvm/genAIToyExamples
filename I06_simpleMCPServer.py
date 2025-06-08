@@ -2,6 +2,7 @@
 #pip install mcp llama-index llama-index-tools-mcp requests
 from mcp.server.fastmcp import FastMCP
 import os
+import asyncio
 
 # Create a simple MCP server
 mcp = FastMCP("SimpleServer")
@@ -35,4 +36,7 @@ def get_my_city(city: str):
 
 if __name__ == "__main__":
     print("Starting MCP server on default port...")
-    mcp.run("sse")
+    try:
+        mcp.run("sse")
+    except (KeyboardInterrupt, asyncio.CancelledError):
+        print("MCP server shut down gracefully.")
