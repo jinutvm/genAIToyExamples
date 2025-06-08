@@ -1,3 +1,8 @@
+"""
+This script is a simple example of how to use the crawl4ai library to crawl a website and extract structured data using an LLM.
+This is class based approach.
+"""
+
 import os
 import json
 import asyncio
