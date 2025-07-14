@@ -1,3 +1,4 @@
 .env
 jinoos/
 /__pycache__
+mcp-streamable-http/
