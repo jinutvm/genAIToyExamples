@@ -2,3 +2,4 @@
 jinoos/
 /__pycache__
 mcp-streamable-http/
+.DS_Store
