@@ -1,6 +1,6 @@
 .env
 jinoos/
-/__pycache__
 mcp-streamable-http/
 .DS_Store
 .venv
+__pycache__
