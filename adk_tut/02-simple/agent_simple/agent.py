@@ -10,15 +10,13 @@ Different conditions below
 3. Create an Agent with structured output. 
 """
 
-
-
-
 """
 ### 1 Create an Agent which can invoke a tool. 
 Here we are using google_search which is an inbuilt tools 
 We could also make our own tools 
-
 """
+
+
 # from google.adk.tools import google_search
 
 # root_agent = Agent(
