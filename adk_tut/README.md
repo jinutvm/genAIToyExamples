@@ -1,3 +1,18 @@
+# About
+
+I’ve been exploring Google ADK (Agent Development Kit) and built a series of examples that progressively introduce key concepts:
+	•	Basic Agent setup – minimum config and constraints.
+	•	Tool usage – calling Google-provided tools (like search), custom tools, and structured outputs.
+	•	Memory & State – using sessions, events, runners; storing user preferences and notes (in-memory + persistent).
+	•	Multi-agent orchestration – a manager agent delegating to specialized sub-agents (notes, preferences).
+	•	Callbacks – controlling and tracing agent, model, and tool interactions.
+
+Overall, it shows how to go from a simple single agent to a production-ready multi-agent system with memory and orchestration.
+
+
+
+
+
 # ADK Examples
 
 This repository introduces different concepts in **ADK** through a series of progressively complex examples.
